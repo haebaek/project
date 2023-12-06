@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snack shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <a href="index.html">
+                    <h1>옛날과자</h1>
+                </a>
+            </div>
+            <nav>
+                <ul id="topMenu">
+                    <li><a href="#">뻥튀기 <span>▾</span></a>
+                    <ul>
+                        <li><a href="#">튀밥</a></li>
+                        <li><a href="#">앵두콘</a></li>
+                        <li><a href="#">개나리콘</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">전병 <span>▾</span></a>
+                        <ul>
+                            <li><a href="#">두부전병</a></li>
+                            <li><a href="#">땅콩전병</a></li>
+                            <li><a href="#">파래전병</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">예약하기</a></li>
+                    <li><a href="#">주문하기</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div id="slideShow">
+            <div id="slides">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjRfOTQg%2FMDAxNjc5NjU5NTMzOTAx.AZwYlsXnAnVL55w0G_RtRyDG8WF89s8cMZuJeSuLw5kg.bSCjqi7cyFpMuYv0FYmYlv5OhtX7mqt73BWTKFh-qncg.JPEG.ijh098dlwogm%2FIMG_7657.JPG&type=sc960_832" alt="">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MjRfNSAg%2FMDAxNjg0ODk0NDk4OTYy.UQ8Gy4TIdgXnmE8g5M7dFY2gFqVRWswbtacf-kqz9HYg.Ehzos53-SZ91pz8NZWjTE37GpEqNmC2UNbCO67SqXsog.JPEG.zxccvb1234%2FIMG_3478.JPG&type=sc960_832" alt="">
+                <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMTVfNTQg%2FMDAxNjc4ODkxODYxMTYz.rKTLXe2E49Z1bUt-bWFwhSIWoQAnCUp2e_Ip5envBAMg.idOG8AFgOo3F6tW7IlXXuVJKATC1hIWZe0pR2hZ53-Ag.JPEG.star_hang%2F20230217%25A3%25DF122813.jpg&type=sc960_832" alt="">
+                <button id="prev">&lang;</button>
+                <button id="next">&rang;</button>
+            </div>
+        <div id="contents">
+            <div id="tabMenu">
+                <input type="radio" id="tab1" name="tabs" checked>
+                <label for="tab1">공지사항</label>
+                <input type="radio" id="tab2" name="tabs">
+                <label for="tab2">갤러리</label>
+                <div id="notice" class="tabContent">
+                    <h2>공지사항 내용입니다.</h2>
+                    <ul>
+                        <li>새로운 뻥튀기 출시!</li>
+                        <li>오란다 판매 시작!</li>
+                        <li>기계 고장으로 하루 쉬어갑니다.</li>
+                        <li>휴가갑니다</li>
+                    </ul>
+                </div>
+                <div id="gallery" class="tabContent">
+                    <h2>갤러리 내용입니다.</h2>
+                    <ul>
+                        <li><img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMjRfOTQg%2FMDAxNjc5NjU5NTMzOTAx.AZwYlsXnAnVL55w0G_RtRyDG8WF89s8cMZuJeSuLw5kg.bSCjqi7cyFpMuYv0FYmYlv5OhtX7mqt73BWTKFh-qncg.JPEG.ijh098dlwogm%2FIMG_7657.JPG&type=sc960_832" alt=""></li>
+                        <li> <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MjRfNSAg%2FMDAxNjg0ODk0NDk4OTYy.UQ8Gy4TIdgXnmE8g5M7dFY2gFqVRWswbtacf-kqz9HYg.Ehzos53-SZ91pz8NZWjTE37GpEqNmC2UNbCO67SqXsog.JPEG.zxccvb1234%2FIMG_3478.JPG&type=sc960_832" alt=""></li>
+                        <li> <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzAzMTVfNTQg%2FMDAxNjc4ODkxODYxMTYz.rKTLXe2E49Z1bUt-bWFwhSIWoQAnCUp2e_Ip5envBAMg.idOG8AFgOo3F6tW7IlXXuVJKATC1hIWZe0pR2hZ53-Ag.JPEG.star_hang%2F20230217%25A3%25DF122813.jpg&type=sc960_832" alt=""></li>
+                        <li> <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMzA1MjRfNSAg%2FMDAxNjg0ODk0NDk4OTYy.UQ8Gy4TIdgXnmE8g5M7dFY2gFqVRWswbtacf-kqz9HYg.Ehzos53-SZ91pz8NZWjTE37GpEqNmC2UNbCO67SqXsog.JPEG.zxccvb1234%2FIMG_3478.JPG&type=sc960_832" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div id="links">
+
+            </div>
+        </div>
+        <footer>
+            <div id="bottomMenu">
+                <ul>
+                    <li><a href="#">가게 소개</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">문의사항</a></li>
+                    <li><a href="#">지도</a></li>
+                </ul>
+            </div>
+            <div id="shop">
+                <p>대구광역시 북구 대학로 80....? 왜 안나와</p>
+            </div>
+        </footer>
+    </div>
+    <script src="js/slideshow.js"></script>
+</body>
+</html>
